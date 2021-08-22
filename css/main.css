@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(54 56 57);
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/f3.png);
+    background-size: 100% 100%;
+}
+
+.home .layout {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+/* =======Start Top Navigation======= */
+.home .nav {
+    background-color: rgba(0, 0, 0, 0.486);
+    overflow: auto;
+}
+
+.home .nav ul {
+    list-style-type: none;
+    font-family: 'Blinker', sans-serif;
+}
+
+.home .nav ul .logo {
+    float: left;
+}
+
+.home .nav ul .logo img {
+    width: 50px;
+}
+
+
+.home .nav ul li {
+    float: right;
+    margin: 15px 25px;
+    padding: 10px 0px 0px 0px;
+    transition: all 1s;
+}
+.home .nav ul li:hover {
+    transform: scale(1.5, 1.5);
+    text-decoration: underline;
+}
+
+
+.home .nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+}
+.home .nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* =======End Top Navigation======= */
+
+/* ========Start Caption======= */
+.home .caption {
+
+    text-align: center;
+}
+
+.home .caption img {
+    width: 370px;
+    margin-top: 5%;
+    transition: all 2s;
+}
+
+.home .caption img:hover {
+
+    transform: rotatey(360deg)
+}
+
+.home .caption h1 {
+
+    font-family: 'Blinker', sans-serif;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.322);
+    margin: 50px 0px;
+    transition: all 0.5s;
+}
+
+.home .caption h1:hover {
+color: #fff;
+    margin-right: 10px;
+    margin-left: 40px;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.home .caption button {
+    font-family: 'Blinker', sans-serif;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    width: 20%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    transition: all 1s;
+}
+
+.home .caption button:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.home .caption .but2 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: black 1px solid;
+}
+/* ========End Caption and End Home======= */
+.products {
+    margin-top: 100px;
+    display: flex;
+}
+.product-header h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Blinker', sans-serif;
+    font-size: 50px;
+    margin-top: 300px;
+}
+
+span {
+    color: black;
+}
+.products .item{
+    width: 20%;
+    height: auto;
+    color: #000000;
+    font-family: 'Blinker', sans-serif;
+    background: #ffffff;
+    text-align: center;
+    margin: -35px 35px;
+    border: 5px solid #000000;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 10px;
+    box-shadow: -5px -5px 5px black;
+    box-shadow: 5px 5px 7px black;
+    transition: all 0.5s;
+}
+.products .item:hover {
+transform: scale(1.1,1.1);
+
+}
+.products .item button{
+    font-family: 'Blinker', sans-serif;
+    background-color:#000000;
+    color: white;
+    border-radius: 20px;
+    padding : 3px 20px;
+}
+.products .item img {
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+    border-bottom: 5px #000000 solid;
+}
+
+
+
